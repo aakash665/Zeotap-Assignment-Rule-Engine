@@ -1,0 +1,82 @@
+body {
+  background: linear-gradient(to bottom right, #a0d3ff, #ffffff);
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: #d9534f; 
+}
+
+
+.table-container {
+  max-height: 400px; 
+  overflow-y: auto; 
+  border: 1px solid #007bff; 
+  border-radius: 10px; 
+  margin: 20px auto; 
+  padding: 10px;
+  background-color: #ffffff; 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  animation: fadeIn 0.5s ease; 
+  border-radius: 10px; 
+  overflow: hidden; 
+}
+
+th {
+  background-color: #007bff; 
+  color: white;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #007bff; 
+  background: linear-gradient(to bottom right, #ffffff, #c4e0f4); 
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  background: linear-gradient(to right, #007bff, #0056b3);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(to right, #0056b3, #007bff);
+}
+
+pre {
+  background-color: #f1f1f1; 
+  padding: 10px;
+  border-radius: 10px;
+  overflow: auto; 
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
