@@ -50,3 +50,10 @@
    The Node.js server should now be running at `http://localhost:5000`.
 
 ---
+
+### Database Setup
+
+Please execute db_setup.sql in mysql command prompt to create database, tables and to insert some data in the database.
+
+
+
